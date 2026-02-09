@@ -26,7 +26,6 @@ class ImageRowOverflow extends StatelessWidget {
         );
       }
 
-      // Reserve one slot for the "+N" badge
       int show = canFit - 1;
       if (show < 1) show = 1;
       final visible = images.take(show).toList();

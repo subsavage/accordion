@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import '../widgets/image_row_overflow.dart';
 
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({super.key});
+class HomePage extends StatelessWidget {
+  const HomePage({super.key});
 
-  // sample data: groups of image urls with varying lengths
   List<List<String>> get groups => List.generate(
         6,
         (i) => List.generate(
