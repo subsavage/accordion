@@ -28,8 +28,3 @@ The app uses **parent state management** to enforce single expansion:
 - Clicking a card sets `expandedIndex` to that card's index
 - Clicking an open card sets `expandedIndex` to null
 - `AnimatedCrossFade` provides smooth transitions (300ms)
-- Result: **Only one card can be expanded at a time**
-
-
-
-**Status**: ✅ Ready for Submission
